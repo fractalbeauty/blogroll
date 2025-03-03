@@ -1,0 +1,9 @@
+[[feed]]
+title = "natu.moe"
+site = "https://natu.moe"
+url = "https://natu.moe/rss.xml"
+
+[[feed]]
+title = "Without boats, dreams dry up"
+site = "https://without.boats"
+url = "https://without.boats/index.xml"

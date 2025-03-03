@@ -1,0 +1,59 @@
+---
+import { BLOGS } from "../data";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <main>
+    <h1>blogroll</h1>
+
+    <a href="/blogs.opml">opml</a>
+    /
+    <a href="/blogs.toml">toml</a>
+    /
+    <a href="https://github.com/hazelmeow/blogroll">repo</a>
+
+    <ul>
+      {
+        BLOGS.map((blog) => (
+          <li>
+            [<a href={blog.url}>☰</a>] <a href={blog.site}>{blog.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</Layout>
+
+<style>
+  body {
+    color: white;
+
+    background: url("/bck-grid.gif");
+
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
+  h1 {
+    margin-bottom: 4px;
+  }
+
+  a {
+    color: lightgreen;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+  li {
+    color: #999;
+  }
+</style>
