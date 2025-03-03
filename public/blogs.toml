@@ -203,3 +203,8 @@ title = "matilde park"
 site = "https://matildepark.ca/blog"
 url = "https://matildepark.ca/feed.xml"
 
+[[feed]]
+title = "Vildravn's Bitstream"
+site = "https://vildravn.net/posts"
+url = "https://vildravn.net/posts/index.xml"
+
