@@ -115,8 +115,8 @@ url = "https://erikmcclure.com/blog/index.xml"
 
 [[feed]]
 title = "Jaz's Blog"
-site = "https://jazco.dev/atom.xml"
-url = "https://jazco.dev"
+site = "https://jazco.dev"
+url = "https://jazco.dev/atom.xml"
 
 [[feed]]
 title = "Yosh Wuyts"
