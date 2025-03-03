@@ -197,3 +197,9 @@ url = "https://journal.stuffwithstuff.com/rss.xml"
 title = "Xetera's Blog"
 site = "https://xetera.dev"
 url = "https://xetera.dev/rss.xml"
+
+[[feed]]
+title = "matilde park"
+site = "https://matildepark.ca/blog"
+url = "https://matildepark.ca/feed.xml"
+
