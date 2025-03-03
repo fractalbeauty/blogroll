@@ -1,9 +1,199 @@
+# [[feed]]
+# title = ""
+# site = ""
+# url = ""
+
 [[feed]]
 title = "natu.moe"
-site = "https://natu.moe"
+site = "https://natu.moe/blog"
 url = "https://natu.moe/rss.xml"
 
 [[feed]]
 title = "Without boats, dreams dry up"
 site = "https://without.boats"
 url = "https://without.boats/index.xml"
+
+[[feed]]
+title = "Mara's Blog"
+site = "https://blog.m-ou.se"
+url = "https://blog.m-ou.se/index.xml"
+
+[[feed]]
+title = "mcyoung"
+site = "https://mcyoung.xyz"
+url = "https://mcyoung.xyz/atom.xml"
+
+[[feed]]
+title = "chromekode"
+site = "https://chromakode.com"
+url = "https://chromakode.com/rss.xml"
+
+[[feed]]
+title = "matduggan.com"
+site = "https://matduggan.com"
+url = "https://matduggan.com/rss"
+
+[[feed]]
+title = "mitxela projects"
+site = "http://mitxela.com/projects"
+url = "http://mitxela.com/feed"
+
+[[feed]]
+title = "Naser Aleisa's Blog"
+site = "https://www.naseraleisa.com"
+url = "https://www.naseraleisa.com/feed.xml"
+
+[[feed]]
+title = "Yossi Kreinin"
+site = "https://yosefk.com/blog"
+url = "https://yosefk.com/blog/feed"
+
+[[feed]]
+title = "Ludicity"
+site = "https://ludic.mataroa.blog"
+url = "https://ludic.mataroa.blog/rss"
+
+[[feed]]
+title = "Dave Pacheco's Blog"
+site = "https://www.davepacheco.net/blog"
+url = "https://www.davepacheco.net/blog/index.xml"
+
+[[feed]]
+title = "The Observation Deck"
+site = "https://bcantrill.dtrace.org"
+url = "https://bcantrill.dtrace.org/index.xml"
+
+[[feed]]
+title = "Raph Levien's blog"
+site = "https://raphlinus.github.io"
+url = "https://raphlinus.github.io/feed.xml"
+
+[[feed]]
+title = "taylor.town"
+site = "https://taylor.town"
+url = "https://taylor.town/feed.xml"
+
+[[feed]]
+title = "devever.net/~hl"
+site = "https://www.devever.net/~hl"
+url = "https://www.devever.net/~hl/index.feed"
+
+[[feed]]
+title = "kotodama catalogue"
+site = "https://kotodamaca.dreamwidth.org"
+url = "https://kotodamaca.dreamwidth.org/data/rss"
+
+[[feed]]
+title = "Poetic Engineering"
+site = "https://poeticengineering.substack.com"
+url = "https://poeticengineering.substack.com/feed"
+
+[[feed]]
+title = "Experimental History"
+site = "https://www.experimental-history.com"
+url = "https://www.experimental-history.com/feed"
+
+[[feed]]
+title = "Posts on lily's thots"
+site = "https://lilymara.xyz/posts"
+url = "https://lilymara.xyz/posts/index.xml"
+
+[[feed]]
+title = "Nows on lily's thots"
+site = "https://lilymara.xyz/now"
+url = "https://lilymara.xyz/now/index.xml"
+
+[[feed]]
+title = "programming in the twenty-first century"
+site = "https://prog21.dadgum.com"
+url = "https://prog21.dadgum.com/atom.xml"
+
+[[feed]]
+title = "Erik McClure"
+site = "https://erikmcclure.com/blog"
+url = "https://erikmcclure.com/blog/index.xml"
+
+[[feed]]
+title = "Jaz's Blog"
+site = "https://jazco.dev/atom.xml"
+url = "https://jazco.dev"
+
+[[feed]]
+title = "Yosh Wuyts"
+site = "https://blog.yoshuawuyts.com"
+url = "https://blog.yoshuawuyts.com/rss.xml"
+
+[[feed]]
+title = "xyzeva's blog"
+site = "https://kibty.town/blog"
+url = "https://kibty.town/blog.rss"
+
+[[feed]]
+title = "encyclopedia eidolica"
+site = "https://eidoli.ca"
+url = "https://eidoli.ca/index.xml"
+
+[[feed]]
+title = "fasterthanli.me"
+site = "https://fasterthanli.me"
+url = "https://fasterthanli.me/index.xml"
+
+[[feed]]
+title = "danluu.com"
+site = "https://danluu.com"
+url = "https://danluu.com/atom.xml"
+
+[[feed]]
+title = "Tom 7 Radar"
+site = "http://radar.spacebar.org"
+url = "http://radar.spacebar.org/f/a/weblog/rss/1"
+
+[[feed]]
+title = "The Long View"
+site = "http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/The_Long_View.html"
+url = "http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/rss.xml"
+
+[[feed]]
+title = "j3s.sh"
+site = "https://j3s.sh"
+url = "https://j3s.sh/feed.atom"
+
+[[feed]]
+title = "Linebender"
+site = "https://linebender.org"
+url = "https://linebender.org/atom.xml"
+
+[[feed]]
+title = "the lich queen&apos;s grimoire"
+site = "https://saoirsedream.blogspot.com"
+url = "https://saoirsedream.blogspot.com/feeds/posts/default"
+
+[[feed]]
+title = "Things Of Interest"
+site = "https://qntm.org"
+url = "https://qntm.org/rss.php"
+
+[[feed]]
+title = "Red Blob Games"
+site = "https://www.redblobgames.com/blog"
+url = "https://www.redblobgames.com/blog/posts.xml"
+
+[[feed]]
+title = "Alain.xyz"
+site = "https://alain.xyz/blog"
+url = "https://alain.xyz/rss"
+
+[[feed]]
+title = "Lisperator.net"
+site = "https://lisperator.net/blog"
+url = "https://lisperator.net/atom"
+
+[[feed]]
+title = "journal.stuffwithstuff.com"
+site = "https://journal.stuffwithstuff.com"
+url = "https://journal.stuffwithstuff.com/rss.xml"
+
+[[feed]]
+title = "Xetera's Blog"
+site = "https://xetera.dev"
+url = "https://xetera.dev/rss.xml"
