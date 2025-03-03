@@ -208,3 +208,18 @@ title = "Vildravn's Bitstream"
 site = "https://vildravn.net/posts"
 url = "https://vildravn.net/posts/index.xml"
 
+[[feed]]
+title = "uncenter.dev"
+site = "https://uncenter.dev"
+url = "https://uncenter.dev/feed.xml"
+
+[[feed]]
+title = "Palaiologos"
+site = "https://palaiologos.rocks"
+url = "https://palaiologos.rocks/index.xml"
+
+[[feed]]
+title = "James Pae"
+site = "https://www.jmspae.se"
+url = "https://www.jmspae.se/rss.xml"
+
