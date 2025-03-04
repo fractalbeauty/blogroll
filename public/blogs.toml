@@ -223,3 +223,8 @@ title = "James Pae"
 site = "https://www.jmspae.se"
 url = "https://www.jmspae.se/rss.xml"
 
+[[feed]]
+title = "scrapscript discourse"
+site = "https://scrapscript.discourse.group"
+url = "https://scrapscript.discourse.group/latest.rss"
+
