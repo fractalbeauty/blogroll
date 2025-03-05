@@ -1,27 +1,31 @@
 ---
-import { BLOGS } from "../data";
+import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
+
+const categories = await getCollection("categories");
 ---
 
 <Layout>
   <main>
     <h1>blogroll</h1>
-
-    <a href="/blogs.opml">opml</a>
-    /
-    <a href="/blogs.toml">toml</a>
-    /
     <a href="https://github.com/hazelmeow/blogroll">repo</a>
 
-    <ul>
-      {
-        BLOGS.map((blog) => (
-          <li>
-            [<a href={blog.url}>☰</a>] <a href={blog.site}>{blog.title}</a>
-          </li>
-        ))
-      }
-    </ul>
+    {
+      categories.map((category) => (
+        <>
+          <h2>{category.id}</h2>
+          <a href={`/${category.id}.opml`}>opml</a> /{" "}
+          <a href={`/${category.id}.toml`}>toml</a>
+          <ul>
+            {category.data.map((feed) => (
+              <li>
+                [<a href={feed.url}>☰</a>] <a href={feed.site}>{feed.title}</a>
+              </li>
+            ))}
+          </ul>
+        </>
+      ))
+    }
   </main>
 </Layout>
 
@@ -38,7 +42,8 @@ import Layout from "../layouts/Layout.astro";
     font-variation-settings: "wdth" 100;
   }
 
-  h1 {
+  h1,
+  h2 {
     margin-bottom: 4px;
   }
 

@@ -1,0 +1,9 @@
+[[feed]]
+title = "programming in the twenty-first century"
+site = "https://prog21.dadgum.com"
+url = "https://prog21.dadgum.com/atom.xml"
+
+[[feed]]
+title = "The Long View"
+site = "http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/The_Long_View.html"
+url = "http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/rss.xml"

@@ -1,8 +1,3 @@
-# [[feed]]
-# title = ""
-# site = ""
-# url = ""
-
 [[feed]]
 title = "natu.moe"
 site = "https://natu.moe/blog"
@@ -104,11 +99,6 @@ site = "https://lilymara.xyz/now"
 url = "https://lilymara.xyz/now/index.xml"
 
 [[feed]]
-title = "programming in the twenty-first century"
-site = "https://prog21.dadgum.com"
-url = "https://prog21.dadgum.com/atom.xml"
-
-[[feed]]
 title = "Erik McClure"
 site = "https://erikmcclure.com/blog"
 url = "https://erikmcclure.com/blog/index.xml"
@@ -147,11 +137,6 @@ url = "https://danluu.com/atom.xml"
 title = "Tom 7 Radar"
 site = "http://radar.spacebar.org"
 url = "http://radar.spacebar.org/f/a/weblog/rss/1"
-
-[[feed]]
-title = "The Long View"
-site = "http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/The_Long_View.html"
-url = "http://basalgangster.macgui.com/RetroMacComputing/The_Long_View/rss.xml"
 
 [[feed]]
 title = "j3s.sh"
@@ -222,9 +207,3 @@ url = "https://palaiologos.rocks/index.xml"
 title = "James Pae"
 site = "https://www.jmspae.se"
 url = "https://www.jmspae.se/rss.xml"
-
-[[feed]]
-title = "scrapscript discourse"
-site = "https://scrapscript.discourse.group"
-url = "https://scrapscript.discourse.group/latest.rss"
-

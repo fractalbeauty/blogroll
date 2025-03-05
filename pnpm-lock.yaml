@@ -10,13 +10,17 @@ importers:
     dependencies:
       astro:
         specifier: ^5.4.1
-        version: 5.4.1(rollup@4.34.9)(typescript@5.8.2)
+        version: 5.4.1(@types/node@22.13.9)(rollup@4.34.9)(typescript@5.8.2)
       smol-toml:
         specifier: ^1.3.1
         version: 1.3.1
       zod:
         specifier: ^3.24.2
         version: 3.24.2
+    devDependencies:
+      '@types/node':
+        specifier: ^22.13.9
+        version: 22.13.9
 
 packages:
 
@@ -463,6 +467,9 @@ packages:
 
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
+
+  '@types/node@22.13.9':
+    resolution: {integrity: sha512-acBjXdRJ3A6Pb3tqnw9HZmyR3Fiol3aGxRCK1x3d+6CDAMjl7I649wpSd+yNURCjbOUGu9tqtLKnTGxmK6CyGw==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -1249,6 +1256,9 @@ packages:
   uncrypto@0.1.3:
     resolution: {integrity: sha512-Ql87qFHB3s/De2ClA9e0gsnS6zXG27SkTiSJwjCc9MebbfapQfuPzumMIUMi38ezPZVNFcHI9sUIepeQfw8J8Q==}
 
+  undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+
   unified@11.0.5:
     resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
 
@@ -1792,6 +1802,10 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
+  '@types/node@22.13.9':
+    dependencies:
+      undici-types: 6.20.0
+
   '@types/unist@3.0.3': {}
 
   '@ungap/structured-clone@1.3.0': {}
@@ -1823,7 +1837,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.4.1(rollup@4.34.9)(typescript@5.8.2):
+  astro@5.4.1(@types/node@22.13.9)(rollup@4.34.9)(typescript@5.8.2):
     dependencies:
       '@astrojs/compiler': 2.10.4
       '@astrojs/internal-helpers': 0.6.0
@@ -1875,8 +1889,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.15.0
       vfile: 6.0.3
-      vite: 6.2.0
-      vitefu: 1.0.6(vite@6.2.0)
+      vite: 6.2.0(@types/node@22.13.9)
+      vitefu: 1.0.6(vite@6.2.0(@types/node@22.13.9))
       which-pm: 3.0.1
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
@@ -2943,6 +2957,8 @@ snapshots:
 
   uncrypto@0.1.3: {}
 
+  undici-types@6.20.0: {}
+
   unified@11.0.5:
     dependencies:
       '@types/unist': 3.0.3
@@ -3021,17 +3037,18 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.2.0:
+  vite@6.2.0(@types/node@22.13.9):
     dependencies:
       esbuild: 0.25.0
       postcss: 8.5.3
       rollup: 4.34.9
     optionalDependencies:
+      '@types/node': 22.13.9
       fsevents: 2.3.3
 
-  vitefu@1.0.6(vite@6.2.0):
+  vitefu@1.0.6(vite@6.2.0(@types/node@22.13.9)):
     optionalDependencies:
-      vite: 6.2.0
+      vite: 6.2.0(@types/node@22.13.9)
 
   web-namespaces@2.0.1: {}
 
