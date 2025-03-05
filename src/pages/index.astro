@@ -10,22 +10,25 @@ const categories = await getCollection("categories");
     <h1>blogroll</h1>
     <a href="https://github.com/hazelmeow/blogroll">repo</a>
 
-    {
-      categories.map((category) => (
-        <>
-          <h2>{category.id}</h2>
-          <a href={`/${category.id}.opml`}>opml</a> /{" "}
-          <a href={`/${category.id}.toml`}>toml</a>
-          <ul>
-            {category.data.map((feed) => (
-              <li>
-                [<a href={feed.url}>☰</a>] <a href={feed.site}>{feed.title}</a>
-              </li>
-            ))}
-          </ul>
-        </>
-      ))
-    }
+    <div class="list">
+      {
+        categories.map((category) => (
+          <section>
+            <h2>{category.id}</h2>
+            <a href={`/${category.id}.opml`}>opml</a> /{" "}
+            <a href={`/${category.id}.toml`}>toml</a>
+            <ul>
+              {category.data.map((feed) => (
+                <li>
+                  [<a href={feed.url}>☰</a>]{" "}
+                  <a href={feed.site}>{feed.title}</a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      }
+    </div>
   </main>
 </Layout>
 
@@ -60,5 +63,12 @@ const categories = await getCollection("categories");
   }
   li {
     color: #999;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
   }
 </style>
