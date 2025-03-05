@@ -1,3 +1,5 @@
+order = 1
+
 [[feed]]
 title = "natu.moe"
 site = "https://natu.moe/blog"

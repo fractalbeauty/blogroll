@@ -1,3 +1,5 @@
+order = 2
+
 [[feed]]
 title = "scrapscript discourse"
 site = "https://scrapscript.discourse.group"

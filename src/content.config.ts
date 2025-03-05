@@ -5,19 +5,23 @@ import { parse as parseToml } from "smol-toml";
 const categories = defineCollection({
   loader: async () => {
     const files = await fs.readdir("./feeds");
-    return await Promise.all(
+    const categories = await Promise.all(
       files
         .filter((file) => file.endsWith(".toml"))
         .map(async (file) => {
           const content = await fs.readFile(`./feeds/${file}`, {
             encoding: "utf-8",
           });
+          const parsed = parseToml(content);
           return {
-            ...parseToml(content),
+            ...parsed,
+            order: Number(parsed.order ?? 99),
             id: file.replace(".toml", ""),
           };
         })
     );
+    categories.sort((a, b) => a.order - b.order);
+    return categories;
   },
   schema: z
     .object({
