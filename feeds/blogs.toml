@@ -151,11 +151,6 @@ site = "https://linebender.org"
 url = "https://linebender.org/atom.xml"
 
 [[feed]]
-title = "the lich queen&apos;s grimoire"
-site = "https://saoirsedream.blogspot.com"
-url = "https://saoirsedream.blogspot.com/feeds/posts/default"
-
-[[feed]]
 title = "Things Of Interest"
 site = "https://qntm.org"
 url = "https://qntm.org/rss.php"
