@@ -204,3 +204,9 @@ url = "https://palaiologos.rocks/index.xml"
 title = "James Pae"
 site = "https://www.jmspae.se"
 url = "https://www.jmspae.se/rss.xml"
+
+[[feed]]
+title = "maria.cat"
+site = "https://maria.cat/blog"
+url = "https://maria.cat/rss.xml"
+
