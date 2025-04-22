@@ -210,3 +210,8 @@ title = "maria.cat"
 site = "https://maria.cat/blog"
 url = "https://maria.cat/rss.xml"
 
+[[feed]]
+title = "Squishy Computer"
+site = "https://newsletter.squishy.computer"
+url = "https://newsletter.squishy.computer/feed"
+
