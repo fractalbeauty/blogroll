@@ -21,7 +21,7 @@ site = "https://mcyoung.xyz"
 url = "https://mcyoung.xyz/atom.xml"
 
 [[feed]]
-title = "chromekode"
+title = "chromakode"
 site = "https://chromakode.com"
 url = "https://chromakode.com/rss.xml"
 
