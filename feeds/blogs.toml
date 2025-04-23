@@ -76,11 +76,6 @@ site = "https://www.devever.net/~hl"
 url = "https://www.devever.net/~hl/index.feed"
 
 [[feed]]
-title = "kotodama catalogue"
-site = "https://kotodamaca.dreamwidth.org"
-url = "https://kotodamaca.dreamwidth.org/data/rss"
-
-[[feed]]
 title = "Poetic Engineering"
 site = "https://poeticengineering.substack.com"
 url = "https://poeticengineering.substack.com/feed"

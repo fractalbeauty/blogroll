@@ -10,7 +10,3 @@ title = "The Fly Blog"
 site = "https://fly.io/blog"
 url = "https://fly.io/blog/feed.xml"
 
-[[feed]]
-title = "Netflix TechBlog"
-site = "https://netflixtechblog.com"
-url = "https://netflixtechblog.com/feed"
