@@ -210,3 +210,8 @@ title = "Squishy Computer"
 site = "https://newsletter.squishy.computer"
 url = "https://newsletter.squishy.computer/feed"
 
+[[feed]]
+title = "Fernando Borretti"
+site = "https://borretti.me/article"
+url = "https://borretti.me/feed.xml"
+
