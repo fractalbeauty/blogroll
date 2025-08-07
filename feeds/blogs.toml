@@ -215,3 +215,8 @@ title = "Fernando Borretti"
 site = "https://borretti.me/article"
 url = "https://borretti.me/feed.xml"
 
+[[feed]]
+title = "April's Den"
+site = "https://aprl.cat/articles"
+url = "https://aprl.cat/rss.xml"
+
